@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         pesEditText = (EditText) findViewById(R.id.pesEditText);
         alcadaEditText = (EditText) findViewById(R.id.alcadaEditText);
-        bmiCalculatTextView = (EditText) findViewById(R.id.bmiCalculatTextView);
+        bmiCalculatTextView = (TextView) findViewById(R.id.bmiCalculatTextView);
 //        pesEditText = (EditText) findViewById(R.id.pesEditText);
 
         mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                mainViewModel.calcularBMI(pesEditText.getText().toString(), alcadaEditText().getText().toString());
+                mainViewModel.calcularBMI(pesEditText.getText().toString(), alcadaEditText.getText().toString());
             }
         });
 
