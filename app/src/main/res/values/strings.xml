@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoraBMI</string>
+    <string name="alcada">Alcada (m)</string>
+    <string name="calculadorabmi">CalculadoraBMI</string>
+    <string name="pes_kgs">Pes(Kgs)</string>
+    <string name="calcular">Calcular</string>
+    <string name="bmi">BMI</string>
+</resources>
